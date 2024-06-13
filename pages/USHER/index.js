@@ -77,18 +77,7 @@ export default function Research() {
         {console.log(select,'ok')}
       </div>
 
-    {select==='BS'?
-       <div className={styles.researchRight}>
-          <ResearchBS/>
-      </div>
-      :
-        select==='MI'?
-      
-        <div className={styles.researchRight}>
-          <ResearchMI/>
-         </div>
-        :
-        select==='UD'?
+    {select==='UD'?
        
            <div className={styles.researchRight}>
             <ResearchUD/>

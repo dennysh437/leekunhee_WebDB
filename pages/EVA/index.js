@@ -21,13 +21,7 @@ export default function Members() {
 
   useEffect(() => {
 
-    if(select === 'Alumni') {
-      setPage('Alumni')
-        
-      
-    } else if (select === 'Student'){
-      setPage('Student')
-    } else if (select === 'Staffs') {
+    if (select === 'Staffs') {
       setPage('Staffs')
       
     }
@@ -59,25 +53,7 @@ export default function Members() {
         <MemberSide select={select} setSelect={setSelect} selectStudent = {selectStudent }   setSelectStudent = {setSelectStudent}  />
       </div>
     
-      {select === 'Alumni' ?
-        <>
-     
-      <div className={styles.membersRight}>
-        <Alumni/>
-      </div>
-      </>
-
-      :
-          select === 'Student'?
-          
-         
-          <div className={styles.membersRight}>
-            
-          <Student select={select} setSelect={setSelect} selectStudent = {selectStudent }   setSelectStudent = {setSelectStudent} />
-          </div>
-          
-            :
-             select === 'Staffs'?
+      {select === 'Staffs'?
                
               <div className={styles.membersRight}>
               <Staffs/>
