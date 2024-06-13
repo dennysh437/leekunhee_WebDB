@@ -1,0 +1,352 @@
+
+
+.stu_profile{
+    
+    border-color: #707070;
+    border-style: solid;
+    border-top-width:1px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:0px;
+   
+    display:flex;
+    justify-content: center;
+    width:100%;
+
+    z-index: 0;
+}
+
+.stu_left{
+    margin-top:23.5px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+   
+}
+.stu_course{
+
+    display:flex;
+    justify-content: start;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    color: #002650;
+    opacity: 1;
+    font-weight: 1000;
+    margin : 20px;
+    /* margin-top: 40px;
+     margin-left:38px;
+    margin-bottom: 22.6px; */
+}
+.stu_photo{
+    display:flex;
+    justify-content: center;
+
+}
+.stuImg{
+
+    width: 50%;
+    justify-self: center;
+    display: flex;
+    margin-bottom: 30px;
+    
+   
+}
+
+
+.stu_right{
+    margin-top:23.5px;
+
+    flex:2;
+    z-index: 1;
+    width:100%;
+    display: flex;
+    position:static;
+  
+    flex-direction: column;
+}
+.stu_name{
+   
+    font-size:1rem;
+    font-weight: 700;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    margin-left: 10px;
+    margin-bottom: 17px;
+  
+
+}
+.stu_pos{
+    font-size:1rem;
+    
+    
+ 
+}
+.stu_eng{
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.stu_field{
+    border-style: solid;
+    border-color:#707070;
+    border-left-width: 0 ;
+    border-right-width: 0 ;
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    display:flex;
+    flex-direction: row;
+    
+    width:100%;
+    z-index: 1;
+   
+}
+
+.stu_subContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.stu_edu{
+    margin-left: 10px;
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.stu_edul1{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    margin-bottom: 19px;
+}
+
+.stu_edul2{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    margin-bottom: 29px;
+}
+
+.stu_ri{
+    margin-left: 10px;
+  
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+
+.stu_ril{
+
+    margin-left: 10px;
+    margin-right: 120px;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    margin-bottom: 19px;
+}
+
+.stu_contact{
+    margin-left: 10px;
+  
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+
+.stu_contactl{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    margin-bottom: 19px;
+}
+
+
+
+@media (max-width: 992px){
+
+    .stu_left{
+        margin-top:10px;
+      
+       
+    }
+    .stu_course{
+
+        font-size: 0.8rem;
+        
+    }
+    .stu_name{
+   
+        font-size:0.8rem;
+       
+    }
+    .stu_pos{
+        font-size:0.8rem;         
+    }
+    
+    .stu_eng{
+        
+        font-size: 0.8rem;
+    }
+    
+  
+    .stu_edu{
+      
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+       
+    }
+    
+    .stu_edul1{
+       
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+        
+    }
+    
+    .stu_edul2{
+       
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+      
+    }
+    
+    .stu_ri{
+  
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+        
+    }
+    
+    .stu_ril{
+
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+        
+    }
+    
+    .stu_contact{
+
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+     
+    }
+    
+    .stu_contactl{
+   
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+       
+    }
+
+.stu_profile{
+    
+    flex-direction: column;
+}
+.stuImg{
+
+    width: 30%;
+    justify-self: center;
+    display: flex;
+    
+   
+}
+
+    
+  
+    
+    
+    }
+
+@media (max-width: 576px) {
+
+    .stu_left{
+        margin-top: 0;
+       
+       
+    }
+
+    .stu_course{
+
+        font-size: 1rem;
+        
+    }
+    .stu_name{
+   
+        font-size:1rem;
+       
+    }
+    .stu_pos{
+        font-size:1rem;         
+    }
+    
+    .stu_eng{
+        
+        font-size: 1rem;
+    }
+    
+  
+    .stu_edu{
+      
+        font-size: 0.8rem;
+       
+    }
+    
+    .stu_edul1{
+       
+        font-size: 0.8rem;
+        
+    }
+    
+    .stu_edul2{
+       
+        font-size: 0.8rem;
+      
+    }
+    
+    .stu_ri{
+  
+        font-size: 0.8rem;
+        
+    }
+    
+    .stu_ril{
+
+        font-size: 0.8rem;
+        
+    }
+    
+    .stu_contact{
+
+        font-size: 0.8rem;
+     
+    }
+    
+    .stu_contactl{
+   
+        font-size: 0.8rem;
+       
+    }
+
+.stu_profile{
+    
+    flex-direction: column;
+}
+.stuImg{
+
+    width: 40%;
+    justify-self: center;
+    display: flex;
+    
+   
+}
+
+    
+  
+
+}

@@ -1,0 +1,138 @@
+.researchCD{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    
+
+}
+
+.header_title{
+    width:100%;
+    display: flex;
+    padding-left:10px;
+    margin-top: 10px;
+    margin-bottom: 15px; 
+    font-size: 2rem;  
+    font-weight: bold;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+     }
+
+.cd_header{ 
+    display: flex;
+    width: 100%;
+    font-size: 26px;
+    font-family:'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    font-weight: 700;
+    flex-direction: column;
+   
+}
+.cd_title{
+    display: flex;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+    margin-left:50px;
+    margin-bottom: 23.5px;
+    width: 100%;
+    white-space: normal;
+}
+.cd_scrollMenu{
+    width: 100%;
+    border-style: solid;
+    border-top-width:1px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+    border-color: #707070;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.cdList{
+    font-size: 22px;
+    list-style: none;
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    cursor:pointer;
+}
+
+.csd_all{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    align-self: center;
+
+}
+
+.csdl{
+   
+    margin-top: 22.5px;
+    border-style: solid;
+    border-top-width:0px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+    border-color: #707070;
+    display: flex;
+    flex-direction: column;
+}
+
+.csd_title{
+    margin-right: 10px;
+    font-weight:700;
+    
+    font-size:25px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    color: #002650;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+@media(max-width: 992px) {
+    
+
+    .cd_header{  
+       font-size: 1.2rem;
+    }
+    .cdList{
+        font-size: 1rem;
+   
+    }
+
+    .cspl{
+     
+        margin-top: 22.5px;
+        border-style: solid;
+        border-top-width:0px;
+        border-left-width:0px;
+        border-right-width:0px;
+        border-bottom-width:1px;
+        border-color: #707070;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .cd_header{  
+        font-size: 1.2rem;
+     }
+
+     .cdList{
+        font-size: 1rem;
+   
+    }
+
+     .cd_title{
+        font-size: 1rem;
+        margin-left:20px;
+        
+        
+    }
+
+  
+    
+    
+}
+

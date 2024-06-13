@@ -1,0 +1,51 @@
+.text{  
+    justify-content: center; 
+    text-align:center; 
+    color:#fff;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+    font-size: 0.6rem;
+}
+
+.textCopy{
+    padding: 20px;
+    justify-content: center; 
+    text-align:center; 
+    color:#fff;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+    font-size: 0.8rem;
+    
+
+}
+
+.his{
+    color: white;
+    cursor: pointer;
+}
+
+.his:hover{
+    color: greenyellow
+}
+/* Responsive Design */
+
+@media(max-width: 992px) {
+
+    .text{
+        font-size: 0.6rem;
+    }
+    .textCopy{
+        font-size: 0.6rem;
+    }
+    
+}
+
+@media (max-width: 576px) {
+
+    .text{
+        font-size: 0.4rem;
+    }
+    .textCopy{
+        font-size: 0.4rem;
+    }
+   
+    
+}

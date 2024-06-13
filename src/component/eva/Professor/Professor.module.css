@@ -1,0 +1,933 @@
+
+
+.professor{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.prof_header{
+    
+    position: sticky;
+    top:0px;    
+    z-index: 1; 
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    font-weight:700;
+    background-color: white;
+    width:100%;
+    
+}
+.header_title{
+   width:100%;
+   display: flex;
+   padding-left:10px;
+   margin-top: 10px;
+   margin-bottom: 15px; 
+   font-size: 2rem;  
+   font-weight: bold;
+   font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+    }
+
+.prof_scrollMenu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border-style: solid;
+    border-top-width:1px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+    border-color: #707070;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+   background-color: white;
+  
+}
+.profList{
+    
+    font-size: 1rem;
+    list-style: none;
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+   margin-top: 10px;
+   margin-bottom: 10px;
+    cursor:pointer;
+    font-weight: 1000;
+
+    
+}
+.profListItem{
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    display: flex;
+}
+
+.prof_profile{
+    width: 100%;
+    margin-bottom: 53.5px;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+   
+}
+
+.prof_summary{
+    display: flex;
+    flex-direction: column;
+    padding-left: 37px;
+ 
+    width:100%;
+    
+}
+.research_interest{
+    display:flex;
+    flex-direction: column;
+    
+}
+.prof_photo{
+    display: flex;
+   justify-content: center;
+}
+.profImg{
+    margin-top:15px;
+    display: flex;
+    justify-self: center;
+    object-fit: contain;
+    /* width: 288px; */
+    width: 80%;
+}
+
+.prof_name{
+    
+    font-size: 1.5rem;
+    opacity:1;
+    font-weight: 700;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   
+    margin-top:15px;
+    margin-bottom: 10px;
+    
+}
+.prof_pos{
+    font-size:1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    
+}
+.prof_eng{
+    margin-left: 1rem;
+    font-size:1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+}
+
+.prof_field{
+    
+    border-style: solid;
+    border-color:#707070;
+    border-left-width: 0 ;
+    border-right-width: 0 ;
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    width: 90%;
+    display:flex;
+    flex-direction: column;
+    padding-top: 37px;
+    
+   
+    
+}
+
+.fos_container{
+    display:flex;
+    
+}
+
+.fos{
+  
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    opacity:1;
+    font-weight: 700;
+    
+}
+.fosCont{
+    display: flex;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    opacity:1;
+   
+    
+}
+.email_container{
+    display: flex;
+}
+
+.prof_email{
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    opacity:1;
+    font-weight: 700;
+    display: flex;
+}
+.prof_emailCont{
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    opacity:1;
+    margin-left: 10px;
+    display: flex;
+}
+
+
+
+.tel_container{
+    display: flex;
+}
+
+.tel{
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   
+    opacity:1;
+    font-weight: 700;
+    
+}
+.telCont{
+    display: flex;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   
+    opacity:1;
+}
+
+.ri{
+    display: flex;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+}
+
+.ril{
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   
+   
+}
+
+
+
+
+
+
+.main_career{
+    
+   
+    display: flex;
+    border-top: solid;
+    border-top-width: 1px;
+    width:100%;
+    justify-content: space-between;
+}
+
+.mc_container{
+    flex-direction: column;
+    display: flex;
+    width:100%;
+  
+}
+.bar_right{
+    
+    margin-top: 80px;
+    display: flex;
+    object-fit:cover;
+    height:208px;
+}
+
+.bar_left1{
+    
+    margin-top: 100px;
+    display: flex;
+    object-fit:cover;
+    width:9px;
+    height:208px;
+}
+.bar_left2{
+    
+    margin-top: 10px;
+    display: flex;
+    object-fit:cover;
+    width:9px;
+    height:208px;
+}
+
+.bar_left3{
+    
+    margin-top: 60px;
+    display: flex;
+    object-fit:cover;
+    width:9px;
+    height:208px;
+}
+.mc{
+    display:flex;
+    margin-top: 29px;
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+   
+}
+
+
+.mcl{
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+    
+}
+
+.textList{
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+}
+
+
+
+
+.other_career{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    
+}
+
+.oc{
+   
+    display:flex;
+    margin-top: 29px;
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+  
+   
+}
+.oc_container{
+    flex-direction: column;
+    display: flex;
+    width:100%;
+    
+  
+}
+.ocl{
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+
+.edu_career{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    
+   
+}
+.edu_container{
+    flex-direction: column;
+    display: flex;
+    width:100%;
+    
+  
+}
+.ec{
+    display:flex;
+    margin-top: 29px;
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+
+.ecl{
+    font-size: 1rem;
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+
+
+
+.scolarship_career{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+
+}
+.sc_container{
+    flex-direction: column;
+    display: flex;
+    width:100%;
+}
+.sc{
+    display:flex;
+    margin-top: 29px;
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+
+.scl{ 
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+
+.research-subject{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    
+}
+.rs_container{
+    flex-direction: column;
+    display: flex;
+    width:100%;
+}
+
+.rs{
+    display:flex;
+    margin-top: 29px;
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+
+.rsl{
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+.rslt{
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    margin-bottom: 29px;
+    font-weight: 700;
+}
+
+
+
+.reward_career{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    
+    
+}
+.rec_container{
+    flex-direction: column;
+    display: flex;
+    width:100%;
+    
+}
+
+.rec{
+    display:flex;
+    margin-top: 29px;
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+
+.recl{
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+
+.book_career{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+
+}
+.book_container{
+    flex-direction: column;
+    display: flex;
+    width:100%;
+}
+
+
+.bc{
+    display:flex;
+    margin-top: 29px;
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+
+.bcl{
+    font-size: 1rem;
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+
+.intell_career{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+
+}
+.intell_container{
+    flex-direction: column;
+    display: flex;
+    width:100%;
+
+}
+
+.ic{
+    display:flex;
+    margin-top: 29px;
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+
+.icl{
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    margin-bottom: 29px;
+    /* margin-left:70px; */
+}
+
+/* Responsive Design */
+
+@media(max-width: 992px) {
+    
+    .profImg{
+        
+        width: 40%;
+        padding: 10px
+    }
+    
+    .prof_profile{
+        width: 100%;
+        margin-bottom: 53.5px;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+        flex-direction: column;
+       
+    }
+    .prof_header{
+        font-size: 1rem;
+    }
+    .profList{
+        font-size: 0.8rem;
+    }
+    .prof_name{
+    
+        font-size: 1.3rem;
+ 
+    }
+    .prof_pos{
+        font-size:0.8rem;
+        
+        
+    }
+    .prof_eng{
+   
+        font-size:0.8rem;
+        
+    }
+    .fos{
+
+        font-size: 0.8rem;
+  
+    }
+    .fosCont{
+       
+        font-size: 0.8rem;
+       
+        
+    }
+
+
+.prof_email{
+    font-size: 0.8rem;
+    
+}
+.prof_emailCont{
+    font-size: 0.8rem;
+    
+}
+
+.tel{
+    
+    font-size: 0.8rem;
+
+}
+.telCont{
+ 
+    font-size: 0.8rem;
+    
+}
+
+.ri{
+   
+    font-size: 0.8rem;
+
+}
+
+.ril{
+    
+    font-size: 0.8rem;
+   
+}
+
+
+.mc{
+    
+    font-size: 0.8rem;
+   
+}
+
+.textList{
+    font-size: 0.8rem;
+   
+}
+
+.mcl{
+   
+    font-size: 0.8rem;
+
+    
+}
+
+.oc{
+   
+    font-size: 0.8rem;
+
+}
+
+.ocl{
+    
+    font-size: 0.8rem;
+  
+}
+
+
+
+.ec{
+   
+    font-size: 0.8rem;
+
+}
+
+.ecl{
+    font-size: 0.8rem;
+
+}
+
+
+.sc{
+    
+    font-size: 0.8rem;
+
+}
+
+.scl{ 
+    
+    font-size: 0.8rem;
+   
+}
+
+
+.rs{
+ 
+    font-size: 0.8rem;
+
+}
+
+.rsl{
+    
+    font-size: 0.8rem;
+}
+.rslt{
+    
+    font-size: 0.8rem;
+   
+}
+
+
+.rec{
+    
+    font-size: 0.8rem;
+
+}
+
+.recl{
+    
+    font-size: 0.8rem;
+   
+}
+
+.bc{
+   
+    font-size: 0.8rem;
+   
+}
+
+.bcl{
+    font-size: 0.8rem;
+   
+}
+
+
+.ic{
+   
+    font-size: 0.8rem;
+   ;
+}
+
+.icl{
+  
+    font-size: 0.8rem;
+    
+}
+}
+
+@media (max-width: 576px) {
+    
+
+    .profImg{
+        
+        width: 50%;
+        padding: 10px
+    }
+    
+    .prof_profile{
+        width: 100%;
+        margin-bottom: 53.5px;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+        flex-direction: column;
+       
+    }
+    .prof_header{
+        font-size: 1rem;
+    }
+    .profList{
+        font-size: 1rem;
+    }
+    .prof_name{
+    
+        font-size: 1.5rem;
+ 
+    }
+    .prof_pos{
+        font-size:1rem;
+        
+        
+    }
+    .prof_eng{
+   
+        font-size:1rem;
+        
+    }
+    .fos{
+
+        font-size: 1rem;
+  
+    }
+    .fosCont{
+       
+        font-size: 1rem;
+       
+        
+    }
+
+
+.prof_email{
+    font-size: 1rem;
+    
+}
+.prof_emailCont{
+    font-size: 0.8rem;
+    
+}
+
+.tel{
+    
+    font-size: 1rem;
+
+}
+.telCont{
+ 
+    font-size: 0.8rem;
+    
+}
+
+.ri{
+   
+    font-size: 1rem;
+
+}
+
+.ril{
+    
+    font-size: 0.8rem;
+   
+}
+
+
+.mc{
+    
+    font-size: 0.8rem;
+   
+}
+
+
+.mcl{
+   
+    font-size: 0.8rem;
+
+    
+}
+.textList{
+    font-size: 0.8rem;
+   
+}
+
+.oc{
+   
+    font-size: 0.8rem;
+
+}
+
+.ocl{
+    
+    font-size: 0.8rem;
+  
+}
+
+
+
+.ec{
+   
+    font-size: 0.8rem;
+
+}
+
+.ecl{
+    font-size: 0.8rem;
+
+}
+
+
+.sc{
+    
+    font-size: 0.8rem;
+
+}
+
+.scl{ 
+    
+    font-size: 0.8rem;
+   
+}
+
+
+.rs{
+ 
+    font-size: 0.8rem;
+
+}
+
+.rsl{
+    
+    font-size: 0.8rem;
+}
+.rslt{
+    
+    font-size: 0.8rem;
+   
+}
+
+
+.rec{
+    
+    font-size: 0.8rem;
+
+}
+
+.recl{
+    
+    font-size: 0.8rem;
+   
+}
+
+.bc{
+   
+    font-size: 0.8rem;
+   
+}
+
+.bcl{
+    font-size: 0.8rem;
+   
+}
+
+
+.ic{
+   
+    font-size: 0.8rem;
+   ;
+}
+
+.icl{
+  
+    font-size: 0.8rem;
+    
+}
+}

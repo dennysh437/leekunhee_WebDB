@@ -1,0 +1,414 @@
+.alumni{
+    display:flex;
+    flex-direction: column;
+     margin-right: 319.5px;
+     width:100%;
+}
+
+.alu_header{
+    display: flex;
+    font-size: 26px;
+    flex-direction: column;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+   
+}
+.alu_title{
+    display:flex;
+    margin-left:50px;
+    margin-bottom: 23.5px;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+    
+}
+
+
+
+.alu_profile{
+
+    border-color: #707070;
+    border-style: solid;
+    border-top-width:1px;
+    border-left-width:0px;
+    border-right-width:0px;
+    border-bottom-width:0px;
+
+    display:flex;
+    width:100%;
+    justify-content: center;
+}
+
+.alu_left{
+    margin-top:23.5px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+  
+}
+.alu_course{
+
+    display:flex;
+    justify-content: start;
+    font-size:22px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;  ;
+    color: #002650;
+    opacity: 1;
+    font-weight: 1000;
+    margin-top: 40px;
+    margin-left:38px;
+    margin-bottom: 22.6px;
+}
+.aluImg{
+    width: 50%;
+    justify-self: center;
+    display: flex;
+    margin-bottom: 30px;
+   
+}
+
+.alu_photo{
+    display:flex;
+    justify-content: center;
+}
+.alu_right{
+    margin-top:23.5px;
+ 
+    flex:2;
+    display: flex;
+    flex-direction: column;
+}
+.alu_name{
+   
+    font-size:1rem;
+    font-weight: 700;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+    margin-left: 10px;
+    margin-bottom: 17px;
+   
+
+}
+.alu_pos{
+    font-size:1rem;
+    
+    
+ 
+}
+.alu_eng{
+    margin-left: 20px;
+    font-size: 1rem;
+}
+
+.alu_field{
+    border-style: solid;
+    border-color:#707070;
+    border-left-width: 0 ;
+    border-right-width: 0 ;
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    display:flex;
+    flex-direction: column;
+    padding-top: 37px;
+   
+    color:#707070;
+
+}
+
+.alu_edu{
+    margin-left: 10px;
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 19px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+}
+
+.alu_edul1{
+    margin-left: 10px;
+    font-size: 1rem;
+    margin-bottom: 19px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    margin-bottom: 19px;
+}
+
+.alu_aff{
+    margin-left: 10px;
+  
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 19px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+}
+
+.alu_affl{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    margin-bottom: 19px;
+    text-decoration:none;
+}
+.alu_dis{
+    margin-left: 10px;
+  
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 19px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+}
+
+.alu_disl{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    margin-bottom: 19px;
+}
+
+.alu_contact{
+    margin-left: 10px;
+  
+    font-size: 1rem;
+    color:#002650;
+    opacity: 1;
+    font-weight: 700;
+    margin-bottom: 19px;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+}
+
+.alu_contactl{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;   ;
+    margin-bottom: 19px;
+}
+
+
+@media (max-width: 992px){
+
+    .alu_profile{
+
+        flex-direction: column;
+    }
+
+    .aluImg{
+        width: 30%;
+        justify-self: center;
+        border-style:none;
+        display: flex;
+       
+    }
+
+
+.alu_header{
+    
+    font-size: 1rem;
+   
+   
+}
+.alu_title{
+ 
+    font-size: 0.8rem;
+    
+    
+}
+
+.alu_course{
+
+    
+    font-size:1rem;
+   
+}
+
+.alu_name{
+   
+    font-size:1rem;
+    margin-bottom: 10px;
+
+
+}
+.alu_pos{
+    font-size:0.8rem;
+    
+    
+ 
+}
+.alu_eng{
+   
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+
+
+.alu_edu{
+    
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+   
+}
+
+.alu_edul1{
+   
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  
+}
+
+.alu_aff{
+
+  
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+   
+}
+
+.alu_affl{
+    
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+
+}
+.alu_dis{
+  
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  
+}
+
+.alu_disl{
+    
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    
+}
+
+.alu_contact{
+
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+   
+}
+
+.alu_contactl{
+ 
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+   
+}
+
+  
+    
+    
+    }
+
+
+@media (max-width: 576px) {
+    .aluImg{
+        width: 40%;
+        justify-self: center;
+        border-style:none;
+        display: flex;
+       
+    }
+
+
+.alu_header{
+    
+    font-size: 1rem;
+   
+   
+}
+.alu_title{
+ 
+    font-size: 1rem;
+    
+    
+}
+
+.alu_course{
+
+    
+    font-size:1rem;
+   
+}
+
+.alu_name{
+   
+    font-size:1rem;
+    margin-bottom: 10px;
+
+
+}
+.alu_pos{
+    font-size:0.8rem;
+    
+    
+ 
+}
+.alu_eng{
+   
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+
+
+.alu_edu{
+    
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+   
+}
+
+.alu_edul1{
+   
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  
+}
+
+.alu_aff{
+
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+   
+}
+
+.alu_affl{
+    
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+
+}
+.alu_dis{
+  
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  
+}
+
+.alu_disl{
+    
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    
+}
+
+.alu_contact{
+
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+   
+}
+
+.alu_contactl{
+ 
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+   
+}
+
+}

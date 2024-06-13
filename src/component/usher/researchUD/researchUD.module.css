@@ -1,0 +1,129 @@
+
+.researchUD{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+ 
+}
+
+.ud_header{
+
+  font-size: 26px;
+  font-family:'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+  font-weight: 700;
+  display: flex;
+  width:100%;
+  flex-direction: column;
+ 
+}
+.ud_title{
+ 
+  display: flex;
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+  margin-left:50px;
+  margin-bottom: 23.5px;
+  width: 100%;
+  white-space: normal;
+}
+.ud_scrollMenu{
+  width:100%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  border-style: solid;
+  border-top-width:1px;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-bottom-width:1px;
+  border-color: #707070;
+}
+.udList{
+  font-size: 22px;
+  list-style: none;
+  display:flex;
+  width: 100%;
+  justify-content: space-around;
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+  cursor:pointer;
+}
+
+.udu_all{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100%;
+  align-self: center;
+
+}
+
+.udul{
+
+  margin-top: 22.5px;
+  border-style: solid;
+  border-top-width:0px;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-bottom-width:1px;
+  border-color: #707070;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.udu_title{
+ width: 100%;
+ margin-right: 10px;
+  font-weight:700;
+  font-size:25px;
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+  color: #002650;
+  margin-bottom: 20px;
+  margin-top:20px;
+}
+
+
+
+@media(max-width: 992px) {
+    
+
+  .ud_header{  
+     font-size: 1.2rem;
+  }
+  .udList{
+      font-size: 1rem;
+ 
+  }
+
+  .udul{
+   
+      margin-top: 22.5px;
+      border-style: solid;
+      border-top-width:0px;
+      border-left-width:0px;
+      border-right-width:0px;
+      border-bottom-width:1px;
+      border-color: #707070;
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  
+  .ud_header{  
+      font-size: 1.2rem;
+   }
+
+   .udList{
+      font-size: 1rem;
+ 
+  }
+
+   .ud_title{
+     
+      margin-left:20px;
+      
+      
+  }
+  
+}

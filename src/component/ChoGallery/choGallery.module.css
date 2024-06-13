@@ -1,0 +1,248 @@
+.galleryWrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+
+.header{
+    
+    position: sticky;
+    top:0px;    
+    z-index: 1; 
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    font-weight:700;
+    background-color: white;
+    text-align: center;
+    width:100%;
+    height: 100%;
+    padding: 40px;
+    
+}
+
+.galleryWrap .single{
+
+    width: 300px;
+    position: relative !important;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer; 
+}
+
+.galleryWrap .single .IContainer{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.galleryWrap .single .IContainer img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+    
+    
+}
+
+
+
+.galleryWrap .single img:hover {
+    transform: scale(1.02);
+}
+
+.sliderWrap{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.textFullTitle{
+    font-size: 2rem;
+    color: #fff;
+    padding: 20px;
+}
+
+.textTitle{
+    font-size: 2rem;
+}
+
+.sliderWrap .btnClose, .sliderWrap .btnPrev, .sliderWrap .btnNext{
+    position: fixed;
+    cursor: pointer;
+    opacity: 0.6;
+    color: #fff;
+    z-index: 9999;
+
+    
+}
+
+ .btnClose:hover, .btnPrev:hover, .btnNext:hover{
+    opacity: 1;    
+}
+.sliderWrap .btnClose{
+    
+    right: 40px;
+    
+}
+
+.sliderWrap .btnNext{
+    
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+}
+.sliderWrap .btnPrev{
+    
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+    
+}
+
+.fullScreenImage{
+
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+
+}
+
+.fullScreenImage img{
+    max-width: 100%;
+    max-height: 700px;
+    pointer-events: none;
+    -webkit-user-select: none; /*safari*/
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* standard syntax */
+}
+/* Responsive Design */
+
+@media(max-width: 992px) {
+
+    .textFullTitle{
+        font-size: 1.5rem;
+        color: #fff;
+        padding: 10px;
+    }
+    
+    .textTitle{
+        font-size: 1.5rem;
+    }    
+}
+
+@media (max-width: 576px) {
+    .galleryWrap .single{
+        width: 100%;
+    }
+    .galleryWrap .single .IContainer{
+        width: 100%;
+       
+    }
+  
+    .textFullTitle{
+        font-size: 1rem;
+        color: #fff;
+        padding: 10px;
+    }
+    
+    .textTitle{
+        font-size: 1rem;
+    }    
+
+    .sliderWrap{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+  
+    
+    .sliderWrap .btnClose, .sliderWrap .btnPrev, .sliderWrap .btnNext{
+        position: fixed;
+        cursor: pointer;
+        opacity: 0.6;
+        color: #fff;
+        z-index: 9999;
+    
+        
+    }
+    
+     .btnClose:hover, .btnPrev:hover, .btnNext:hover{
+        opacity: 1;    
+    }
+    .sliderWrap .btnClose{
+        
+        right: 40px;
+        
+    }
+    
+    .sliderWrap .btnNext{
+        
+        top: 50%;
+        transform: translateY(-50%);
+        right: 40px;
+    }
+    .sliderWrap .btnPrev{
+        
+        top: 50%;
+        transform: translateY(-50%);
+        left: 40px;
+        
+    }
+
+    .fullScreenImage{
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+    
+    }
+    
+    .fullScreenImage img{
+        max-width: 100%;
+        max-height: auto;
+        pointer-events: none;
+        -webkit-user-select: none; /*safari*/
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* standard syntax */
+    }
+    
+    
+}

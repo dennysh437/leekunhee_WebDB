@@ -1,0 +1,169 @@
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.container{
+    display : flex;
+    flex-direction:column;
+    position : relative;
+    padding : 0 1rem; 
+}
+
+
+.back {
+    display: flex;
+    width: 300px;
+  
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.navbar .togle_btn {
+    color : #fff;
+    font-size : 1.5rem;
+    cursor: pointer;
+    display: none;
+    
+}
+
+.action_btn {
+    background-color: #0167b3;
+    padding : 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+    color: #fff;
+}
+
+.action_btn:hover{
+    scale: 1.05;
+    color: #fff;
+}
+
+.action_btn:active{
+    scale: 0.95;
+}
+
+/* DROPDOWN MENU */
+
+.dropDownMenu{
+    display: none;
+    position:absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    height: 0;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 200;
+}
+
+.dropDownMenuOpen{
+   
+    position:absolute;
+    right: 1rem;
+    top: 60px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.5);
+
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    height: auto;
+    z-index: 200;
+    
+}
+
+.dropDownMenuOpen li {
+    padding: 0.7rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.dropDownMenuOpen .action_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.dropDownMenu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.dropDownMenu .action_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive Design */
+
+@media(max-width: 992px) {
+    .navbar .links,
+    .navbar .action_btn{
+        display: none;
+    }
+
+    .navbar .togle_btn{
+        display: block;
+    }
+    
+    .dropDownMenu{
+        display: block;
+    }
+
+    .dropDownMenuOpen{
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .dropDownMenuOpen{
+        left: 1rem;
+        width: unset;
+    }
+
+    .navbar .togle_btn {
+       padding: 10px;
+        
+    }
+    .back {
+        display: flex;
+        width: 250px;
+      
+    }
+
+    .container{
+        
+        padding : 0 0.1rem; 
+    }
+    
+
+    
+
+    
+}
