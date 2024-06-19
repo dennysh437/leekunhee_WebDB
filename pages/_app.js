@@ -24,7 +24,7 @@ export default function App({ Component, pageProps, }) {
       <div className={styles.sectionImg}>
         <div className={styles.infoDiv}>
           <div className={styles.mainLogo} alt="main illustration"/>
-          <h1>이건희과제 WebDb Site</h1>
+          <h1>이건희과제 WebDB Site</h1>
         </div>
       </div>
       <div className={styles.sectionContent}>

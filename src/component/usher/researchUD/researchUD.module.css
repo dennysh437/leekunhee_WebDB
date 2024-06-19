@@ -5,7 +5,20 @@
   width:100%;
  
 }
+.conl{
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+  margin-bottom: 29px;
+  font-weight: lighter;
+}
 
+.journal_content{
+  display:flex;
+  flex-direction: column;
+  font-size:1rem;
+  margin-bottom:60px;
+  padding-left:38px;
+  font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif;
+ }
 .ud_header{
 
   font-size: 26px;

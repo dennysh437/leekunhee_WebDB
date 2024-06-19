@@ -19,6 +19,15 @@
     width:100%;
     
 }
+
+.header_title2{
+    width:100%;
+    display: flex;
+    font-size: 1rem;  
+    font-weight: bold;
+    font-family: 'Noto Sans KR','Open Sans',AppleGothic,helvetica,sans-serif; 
+     }
+
 .header_title{
    width:100%;
    display: flex;
