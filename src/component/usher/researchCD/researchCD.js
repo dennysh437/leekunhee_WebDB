@@ -13,12 +13,12 @@ import TableRow from '@material-ui/core/TableRow';
 const columns = [
   
   { id: 'code', label: 'Patient\u00a0Code', minWidth: 100, align: 'center'},
-  { id: 'name', label: 'Name', minWidth: 130,align: 'center' },
+  { id: 'name', label: 'Name', minWidth: 100,align: 'center' },
   { id: 'sex', label: 'Sex', minWidth: 20,align: 'center' },
   { id: 'age', label: 'Age', minWidth: 20,align: 'center' },
-  { id: 'birth', label: 'Birth', minWidth: 130,align: 'center' },
-  { id: 'family', label: 'Family Number', minWidth: 130,align: 'center' },
-  { id: 'address', label: 'Address', minWidth: 130,align: 'center' },
+  { id: 'birth', label: 'Birth', minWidth: 80,align: 'center' },
+  { id: 'family', label: 'Family Number', minWidth: 100,align: 'center' },
+  { id: 'address', label: 'Address', minWidth: 80,align: 'center' },
   { id: 'phone', label: 'Phone', minWidth: 130,align: 'center' },
 
 ];

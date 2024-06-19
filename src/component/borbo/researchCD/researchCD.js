@@ -30,12 +30,12 @@ const useRowStyles = makeStyles({
 const columns = [
   
   { id: 'code', label: 'Patient\u00a0Code', minWidth: 100, align: 'center'},
-  { id: 'name', label: 'Name', minWidth: 130,align: 'center' },
+  { id: 'name', label: 'Name', minWidth: 100,align: 'center' },
   { id: 'sex', label: 'Sex', minWidth: 20,align: 'center' },
   { id: 'age', label: 'Age', minWidth: 20,align: 'center' },
-  { id: 'birth', label: 'Birth', minWidth: 130,align: 'center' },
-  { id: 'family', label: 'Family Number', minWidth: 130,align: 'center' },
-  { id: 'address', label: 'Address', minWidth: 130,align: 'center' },
+  { id: 'birth', label: 'Birth', minWidth: 80,align: 'center' },
+  { id: 'family', label: 'Family Number', minWidth: 100,align: 'center' },
+  { id: 'address', label: 'Address', minWidth: 80,align: 'center' },
   { id: 'phone', label: 'Phone', minWidth: 130,align: 'center' },
 
 ];
@@ -50,12 +50,16 @@ const rows = [
     { date: 'SIX1 c.513G>A:p.Trp171Cys', customerId: '-', amount: ' ' },
     { date: ' ', customerId: ' ', amount: ' ' },
     { date: 'Enroll Family', customerId: ' ', amount: ' ' },
-    { date: 'Father', customerId: 'Affected', amount: ' ' },
-    { date: 'Mother', customerId: 'Non-Affected', amount: ' ' },]),
+    { date: 'Father', customerId: 'Non-Affected', amount: ' ' },
+    { date: 'Mother', customerId: 'Affected', amount: ' ' },]),
 
   createData('BORBO02', '서ㅇ도', 'M', 1, '220927', 'SH986', '경기', '010-****-0000',
-    [{ date: '2020-01-05', customerId: '11091700', amount: 53 },
-      { date: '2020-01-02', customerId: 'Anonymous', amount: 2 },]),
+    [{ date: 'variant1', customerId: 'variant2', amount: ' ' },
+      { date: 'SIX1 c.376_378del:p.Glu126del', customerId: '-', amount: ' ' },
+      { date: ' ', customerId: ' ', amount: ' ' },
+      { date: 'Enroll Family', customerId: ' ', amount: ' ' },
+      { date: 'Father', customerId: 'Affected', amount: ' ' },
+      { date: 'Mother', customerId: 'Non-Affected', amount: ' ' },]),
     ];
 
 
