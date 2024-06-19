@@ -17,21 +17,21 @@ const columns = [
   { id: 'sex', label: 'Sex', minWidth: 20,align: 'center' },
   { id: 'age', label: 'Age', minWidth: 20,align: 'center' },
   { id: 'birth', label: 'Birth', minWidth: 130,align: 'center' },
-  { id: 'hospital', label: 'Hospital', minWidth: 130,align: 'center' },
+  { id: 'family', label: 'Family Number', minWidth: 130,align: 'center' },
   { id: 'address', label: 'Address', minWidth: 130,align: 'center' },
   { id: 'phone', label: 'Phone', minWidth: 130,align: 'center' },
 
 ];
 
-function createData(code, name, sex, age, birth, hospital, address, phone) {
-  return { code, name, sex, age, birth, hospital, address, phone };
+function createData(code, name, sex, age, birth, family, address, phone) {
+  return { code, name, sex, age, birth, family, address, phone };
 }
 
 const rows = [
-  createData(81517242, '오수아', 'F', 1, '200213', 'SNUH', '경기', '010-0000-0000'),
-  createData(79683184, '심은우', 'M', 3, '060321', 'SNUH', '서울', '010-0000-0000'),
-  createData(71706759, '이우주', 'F', 35, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(81497728, '김소원', 'F', 0, '201015', 'SNUH', '서울', '010-0000-0000')
+  createData('USHER01', '오ㅇ아', 'F', 1, '200213', 'SH964', '경기', '010-****-0000'),
+  createData('USHER02', '심ㅇ우', 'M', 3, '060321', 'SH689', '서울', '010-****-0000'),
+  createData('USHER03', '이ㅇ주', 'F', 35, '090402', 'SH1025', '서울', '010-****-0000'),
+  createData('USHER04', '김ㅇ원', 'F', 0, '201015', 'SH1007', '서울', '010-****-0000')
 ];
 
 const useStyles = makeStyles({

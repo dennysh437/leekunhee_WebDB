@@ -17,32 +17,32 @@ const columns = [
   { id: 'sex', label: 'Sex', minWidth: 20,align: 'center' },
   { id: 'age', label: 'Age', minWidth: 20,align: 'center' },
   { id: 'birth', label: 'Birth', minWidth: 130,align: 'center' },
-  { id: 'hospital', label: 'Hospital', minWidth: 130,align: 'center' },
+  { id: 'family', label: 'Family Number', minWidth: 130,align: 'center' },
   { id: 'address', label: 'Address', minWidth: 130,align: 'center' },
   { id: 'phone', label: 'Phone', minWidth: 130,align: 'center' },
 ];
 
-function createData(code, name, sex, age, birth, hospital, address, phone) {
-  return {code, name, sex, age, birth, hospital, address, phone };
+function createData(code, name, sex, age, birth, family, address, phone) {
+  return {code, name, sex, age, birth, family, address, phone };
 }
 
 const rows = [
-  createData(80516842, '이우찬', 'M', 4, '200213', 'SNUH', '경남', '010-0000-0000'),
-  createData(75680602, '김태영', 'F', 18, '060321', 'SNUH', '경기', '010-0000-0000'),
-  createData(75308777, '김근우', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(75308777, '김근우1', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(75308777, '김근우2', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(75308777, '김근우3', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(75308777, '김근우4', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(75308777, '김근우5', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(75308777, '김근우6', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(75308777, '김근우7', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(75308777, '김근우8', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(75308777, '김근우9', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(75308777, '김근우10', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(75308777, '김근우11', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(75308777, '김근우12', 'M', 15, '090402', 'SNUH', '서울', '010-0000-0000'),
-  createData(80255147, '양은조', 'F', 3, '201015', 'SNUH', '세종', '010-0000-0000'),
+  createData('EVA01', '이ㅇ찬', 'M', 4, '200213', 'SH867', '경남', '010-****-0000'),
+  createData('EVA02', '김ㅇ영', 'F', 18, '060321', 'SH950', '경기', '010-****-0000'),
+  createData('EVA03', '김ㅇ우', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA04', '김ㅇ우1', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA05', '김ㅇ우2', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA06', '김ㅇ우3', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA07', '김ㅇ우4', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA08', '김ㅇ우5', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA09', '김ㅇ우6', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA10', '김ㅇ우7', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA11', '김ㅇ우8', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA12', '김ㅇ우9', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA13', '김ㅇ우10', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA14', '김ㅇ우11', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA15', '김ㅇ우12', 'M', 15, '090402', 'SH966', '서울', '010-****-0000'),
+  createData('EVA16', '양ㅇ조', 'F', 3, '201015', 'SH1020', '세종', '010-****-0000'),
 ];
 
 const useStyles = makeStyles({
