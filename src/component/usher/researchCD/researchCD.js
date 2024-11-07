@@ -42,6 +42,7 @@ function createData(code, name, sex, age, year, family, address, history) {
   return { code, name, sex, age, year, family, address, history};
 }
 
+
 const rows = [
   createData('USHER01', '양ㅇ수', 'F', 14, '2022', 'SH525', '제주',
     [{ date: '<Variant1>', customerId: '<Variant2>', amount: ' ' },
@@ -52,7 +53,7 @@ const rows = [
     { date: 'Mother', customerId: 'Non-Affected', amount: ' ' },
     { date: ' ', customerId: ' ', amount: ' ' },
     { date: '<Image>', customerId: ' ', amount: ' '},
-    { date:<img src='Audio/SH525.jpg' width='395px'/>, customerId: <img src='Audio/SH525.jpg' width='395px'/>, amount:''}]),
+    { date:<img src='Audio/SH525.jpg' width='395px'/>, customerId: <img src='Audio/SH525_2.png' width='395px'/>, amount:''}]),
   createData('USHER02', '김ㅇ원', 'M', 7, '2022', 'SH485', '경기',
     [{ date: '<Variant1>', customerId: '<Variant2>', amount: ' ' },
       { date: 'USH2A c.10712C>T:p.Thr3571Met', customerId: 'USH2A c.7120+1475A>G:p.?', amount: ' ' },
@@ -63,7 +64,7 @@ const rows = [
       { date: 'Sister', customerId: 'Affected', amount: ' ' },
       { date: ' ', customerId: ' ', amount: ' ' },
       { date: '<Image>', customerId: ' ', amount: ' '},
-      { date:<img src='Audio/SH485.png' width='395px'/>, customerId: <img src='Audio/SH485.png' width='395px'/>, amount:''}]),  
+      { date:<img src='Audio/SH485.png' width='395px'/>, customerId: <img src='Audio/SH485_2.png' width='395px'/>, amount:''}]),  
   createData('USHER04', '박ㅇ준A', 'M', 0, '2022', 'SH608', '서울',
     [{ date: '<Variant1>', customerId: '<Variant2>', amount: ' ' },
       { date: 'USH2A c.2082T>G:p.Cys934Trp', customerId: 'USH2A c.4858C>T:p.Gln1620Ter', amount: ' ' },
