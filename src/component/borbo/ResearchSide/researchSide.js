@@ -15,7 +15,7 @@ export default function ResearchSide({select,setSelect}) {
    return (
     <div className={styles.researchSide}>
        <div className={styles.title_research}>
-          USHER
+          BOR_BO
           <div className={styles.titleResearch_border}>
             <div className={styles.titleResearch_left}>
               
