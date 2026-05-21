@@ -80,40 +80,90 @@ export default function Home() {
             {/* </div> */}
            
 
+            {/* ================= Figure Section 1 ================= */}
 
-            <div style = {{display: 'flex', flexDirection:'column', position : 'relative' , marginTop: '100px', marginBottom: '100px', width: '100%', height: '100%',  justifyContent:'center', alignSelf:'center',}}>
-              
-            <p className = {styles.textContainer1} style = {{opacity: (position-100)/100}}>
-              About Our Target Syndrome 
-            </p>
-            <p className = {styles.textContainer2} style = {{opacity: (position-140)/100}}>
-            &quot;EVA Syndrome&quot;
-            </p>
-            <p className = {styles.textContainer3} style = {{opacity: (position-180)/100}}>
-            {'Pre- or perilingual onset of sensorineural or mixed hearing loss, \nwhich may be fluctuating or progressive'}
-            </p>
-            <p className = {styles.textContainer4} style = {{opacity: (position-250)/50}}>
-            &quot;USHER Syndrome&quot;
-            </p>
-            <p className = {styles.textContainer5} style = {{opacity: (position-300)/50}}>
-            {'Three primary subtypes based on the severity and onset of subjective \nhearing loss, along with the presence of vestibular dysfunction.'}
-            </p>
-            <p className = {styles.textContainer6} style = {{opacity: (position-340)/50}}>
-            &quot;BOR/BO Syndrome&quot;
-            </p>
-            <p className = {styles.textContainer7} style = {{opacity: (position-380)/100}}>
-            {'Rare disorder that is clinically heterogeneous,\ncharacterized by anomalies of the ear, branchial arch, and renal system'}
-            </p>
+            <div className={styles.section}>
 
-            </div>
+              <div className={styles.figureBox}>
+                <img
+                  src="/images/2026.png"
+                  className={styles.figureImage}
+                  alt="2026 recruitment goal"
+                />
+              </div>
 
-            <div>
+              <div className={styles.textBox}>
+
+                <h1 className={styles.sectionTitle}>
+                  2026 Patient Recruitment Goal
+               </h1>
+
+              <p className={styles.sectionText}>
+                 Current progress toward the 2026 recruitment target
+                 for pediatric rare disease patients.
+              </p>
+
+              </div>
 
             </div>
 
+
+{/* ================= Figure Section 2 ================= */}
+
+<div className={styles.section}>
+
+  <div className={styles.figureBox}>
+    <img
+      src="/images/Barplot.png"
+      className={styles.figureImage}
+      alt="Annual participants"
+    />
+  </div>
+
+  <div className={styles.textBox}>
+
+    <h1 className={styles.sectionTitle}>
+      Annual Participants by Syndrome
+    </h1>
+
+    <p className={styles.sectionText}>
+      Number of enrolled participants by syndrome
+      across different years.
+    </p>
+
+  </div>
+
+</div>
+
+
+{/* ================= Figure Section 3 ================= */}
+
+<div className={styles.section}>
+
+  <div className={styles.figureBox}>
+    <img
+      src="/images/dist.png"
+      className={styles.figureImage}
+      alt="Regional distribution"
+    />
+  </div>
+
+  <div className={styles.textBox}>
+
+    <h1 className={styles.sectionTitle}>
+      Geographic Distribution of Participants
+    </h1>
+
+    <p className={styles.sectionText}>
+      Regional distribution of enrolled families and
+      participants across Korea.
+    </p>
+
+  </div>
+
+</div>
             
-          
-          
+   
         </div>
         </div>
     </div>

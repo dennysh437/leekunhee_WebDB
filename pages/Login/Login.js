@@ -61,6 +61,8 @@ const Login = ({setIsLogin}) => {
     const loginToHomepage = async () => {
         
         if(email === TestUser.email && password === TestUser.password){
+            sessionStorage.setItem('isLogin', 'true')
+
             setIsLogin(true)
            
         } else {

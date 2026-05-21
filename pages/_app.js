@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useState, useEffect} from "react";
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
@@ -11,7 +11,23 @@ import Login from './Login/Login'
 
 export default function App({ Component, pageProps, }) {
   const [isLogin, setIsLogin] = useState(false);
+  const [loading, setLoading] = useState(true);
 
+useEffect(() => {
+
+  const savedLogin = sessionStorage.getItem('isLogin')
+
+  if(savedLogin === 'true'){
+    setIsLogin(true)
+  }
+
+    setLoading(false)
+
+  }, [])
+
+  if(loading){
+    return null
+  }
   console.log(isLogin)
 
   return (
