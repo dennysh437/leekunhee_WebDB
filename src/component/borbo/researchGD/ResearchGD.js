@@ -46,11 +46,9 @@ function createData(
   family,
   address,
   variant1,
-  variant2,
   img1,
-  img2,
   sheet,
-  img2large=false
+  img1large=false
 ) {
   return {
     code,
@@ -61,138 +59,125 @@ function createData(
     family,
     address,
     variant1,
-    variant2,
     img1,
-    img2,
     sheet,
-    img2large,
+    img1large,
   };
 }
 
 const rows = [
   createData(
-    "EVA07",
-    "조ㅇ하",
-    "M",
-    4,
-    "2022",
-    "SH442",
-    "대전",
-    "SLC26A4 c.919-2A>G:p.?",
-    "SLC26A4 deletion",
-    "/genome/SH442_Img1.png",
-    "/genome/SH442_Img2.png",
-    "/genome/SH442_Sheet.xlsx",
-    true
-  ),
-
-  createData(
-    "EVA01",
-    "오ㅇ준",
-    "M",
-    17,
-    "2022",
-    "SH596",
-    "경기",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
-  ),
-
-  createData(
-    "EVA02",
-    "김ㅇ영",
-    "M",
-    7,
-    "2022",
-    "SH643",
-    "서울",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
-  ),
-
-  createData(
-    "EVA03",
-    "엄ㅇ민",
-    "M",
-    2,
-    "2022",
-    "SH366",
-    "울산",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
-  ),
-
-  createData(
-    "EVA04",
-    "강ㅇ우",
-    "M",
-    6,
-    "2022",
-    "SH378",
-    "경기",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
-  ),
-
-  createData(
-    "EVA05",
-    "김ㅇ린",
+    "BORBO07",
+    "염ㅇ율",
     "F",
-    13,
+    10,
     "2022",
-    "SH418",
-    "서울",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
+    "SH693",
+    "경기",
+    "SIX1 c.386_391del:p.Tyr129_Cys130del",
+    "/genome/SH693_Img1.png",
+    "/genome/SH693_Sheet.xlsx"
   ),
 
   createData(
-    "EVA06",
-    "문ㅇ윤",
+    "BORBO01",
+    "최ㅇ서",
     "F",
-    21,
+    15,
     "2022",
-    "SH978",
-    "경북",
-    "SLC26A4 c.919-2A>G:p.?",
-    "SLC26A4 c.2168A>G:p.His723Arg"
+    "SH527",
+    "경기",
+    "EYA1 c.1319G>A:p.Arg440Gln",
   ),
-
+  
   createData(
-    "EVA08",
-    "문ㅇ군",
-    "M",
-    0,
-    "2022",
-    "SH464",
-    "전북",
-    "SLC26A4 c.1229C>T:p.Thr410Met",
-    "SLC26A4 c.2072T>A:p.Leu676Gln"
-  ),
-
-  createData(
-    "EVA09",
-    "박ㅇ늘",
-    "M",
-    0,
-    "2022",
-    "SH484",
-    "서울",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
-  ),
-
-  createData(
-    "EVA10",
-    "추ㅇ호",
+    "BORBO02",
+    "최ㅇ서",
     "F",
     22,
     "2022",
-    "SH496",
+    "SH536",
     "서울",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
+    "EYA1 inversion c reciprocal deletion",
+  ),
+
+  createData(
+    "BORBO03",
+    "박ㅇ우",
+    "M",
+    14,
+    "2022",
+    "SH435",
+    "충남",
+    "Inconclusive",
+  ),
+
+  createData(
+    "BORBO04",
+    "진ㅇ호",
+    "M",
+    31,
+    "2022",
+    "SH587",
+    "서울",
+    "EYA1 c.1623_1623dup:p.Gln543AsnfsTer90",
+  ),
+
+  createData(
+    "BORBO05",
+    "주ㅇ진",
+    "M",
+    8,
+    "2022",
+    "SH468",
+    "서울",
+    "EYA1 c.1081C>T:p.Arg361Ter",
+  ),
+
+  createData(
+    "BORBO06",
+    "허ㅇ롱	",
+    "F",
+    31,
+    "2022",
+    "SH529",
+    "대구",
+    "SIX1 c.501G>C:p.Gln167His",
+  ),
+
+  createData(
+    "BORBO08",
+    "윤ㅇ라",
+    "F",
+    11,
+    "2022",
+    "SH613",
+    "인천",
+    "SIX1 c.397_389del:p.Glu133del",
+  ),
+
+  createData(
+    "BORBO09",
+    "박ㅇ원",
+    "F",
+    0,
+    "2022",
+    "SH716",
+    "서울",
+    "SIX1 c.1598-2A>C:p.?",
+  ),
+
+  createData(
+    "BORBO10",
+    "고ㅇ정",
+    "F",
+    51,
+    "2022",
+    "SH719",
+    "서울",
+    "Inconclusive",
   )
+
 ];
 
 function Row(props) {
@@ -241,36 +226,16 @@ function Row(props) {
       </div>
     </div>
 
-    {/* Image 1 */}
     {row.img1 && (
       <div className={styles.imageContainer}>
         <img
-          src={row.img1}
-          alt="Genome Image 1"
-          className={styles.mainImage}
-        />
-      </div>
-    )}
-
-    {/* Variant 2 */}
-    <div className={styles.variantSection}>
-      <div className={styles.variantTitle}>Variant 2</div>
-      <div className={styles.variantContent}>
-        {row.variant2}
-      </div>
-    </div>
-
-    {/* Image 2 */}
-    {row.img2 && (
-      <div className={styles.imageContainer}>
-        <img
-          src={row.img2}
-          alt="Genome Image 2"
-          className={
-            row.img2large
-              ? styles.subImage
-              : styles.mainImage
-          }
+         src={row.img1}
+         alt="Genome Image 1"
+         className={
+          row.img1large
+            ? styles.subImage
+            : styles.mainImage
+         }
         />
       </div>
     )}

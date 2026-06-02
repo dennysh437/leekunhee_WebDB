@@ -5,17 +5,22 @@
     width: 100%;
 }
 
-.research{
-    display:flex;   
-    width: 100%;
+.members{
+    display:flex;
+    margin-bottom: 200px;
     max-width: 1200px;
     margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
     align-self: center;
    
+    
+    
 }
 
 
-.researchLeft{
+.membersLeft{
     display:flex;
     flex:1;
     flex-direction: row;
@@ -32,7 +37,7 @@
     flex-direction:row;
 }
 
-.researchRight{
+.membersRight{
     display:flex;
     flex:5;
     height:100%;
@@ -57,7 +62,7 @@
         padding-left: 18px;
     }
    
-    .researchLeft{
+    .membersLeft{
     
     flex-direction: row;
     margin-top: 0;
@@ -68,7 +73,7 @@
   
 }
 
-.researchRight{
+.membersRight{
     display:flex;
     flex:5;
     height:100%;

@@ -71,127 +71,126 @@ function createData(
 
 const rows = [
   createData(
-    "EVA07",
-    "조ㅇ하",
-    "M",
-    4,
-    "2022",
-    "SH442",
-    "대전",
-    "SLC26A4 c.919-2A>G:p.?",
-    "SLC26A4 deletion",
-    "/genome/SH442_Img1.png",
-    "/genome/SH442_Img2.png",
-    "/genome/SH442_Sheet.xlsx",
-    true
-  ),
-
-  createData(
-    "EVA01",
-    "오ㅇ준",
-    "M",
-    17,
-    "2022",
-    "SH596",
-    "경기",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
-  ),
-
-  createData(
-    "EVA02",
-    "김ㅇ영",
+    "USHER02",
+    "김ㅇ원",
     "M",
     7,
     "2022",
-    "SH643",
-    "서울",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
-  ),
-
-  createData(
-    "EVA03",
-    "엄ㅇ민",
-    "M",
-    2,
-    "2022",
-    "SH366",
-    "울산",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
-  ),
-
-  createData(
-    "EVA04",
-    "강ㅇ우",
-    "M",
-    6,
-    "2022",
-    "SH378",
+    "SH485",
     "경기",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
+    "USH2A c.10712C>T:p.Thr3571Met",
+    "USH2A c.7120+1475A>G:p.?",
+    "/genome/SH485_Img1.png",
+    "/genome/SH485_Img2.png",
+    "/genome/SH485_Sheet.xlsx"
   ),
 
   createData(
-    "EVA05",
-    "김ㅇ린",
+    "USHER01",
+    "양ㅇ수",
+    "F",
+    14,
+    "2022",
+    "SH525",
+    "제주",
+    "USH2A c.12708T>A:p.Cys4236Ter",
+    "USH2A c.12708T>A:p.Cys4236Ter"
+  ),
+
+  createData(
+    "USHER03",
+    "박ㅇ준A",
+    "M",
+    0,
+    "2022",
+    "SH608",
+    "서울",
+    "USH2A c.2082T>G:p.Cys934Trp",
+    "USH2A c.4858C>T:p.Gln1620Ter"
+  ),
+
+  createData(
+    "USHER04",
+    "정ㅇ철",
+    "M",
+    47,
+    "2022",
+    "SH608",
+    "대전",
+    "USH2A c.13112_13115del:p.Gln4371ArgfsTer19",
+    "USH2A c.2082T>G:p.Cys934Trp"
+  ),
+
+  createData(
+    "USHER05",
+    "박ㅇ희",
+    "F",
+    42,
+    "2022",
+    "SH664",
+    "경기",
+    "USH2A c.11156G>A:p.Arg3719His",
+    "USH2A c.14489C>A:p.Ser1830Ter"
+  ),
+
+  createData(
+    "USHER06",
+    "박ㅇ준B",
+    "M",
+    5,
+    "2022",
+    "SH478",
+    "충북",
+    "USH2A c.8559-2A>G:p.?",
+    "USH2A c.11156G>A:p.Arg3719His"
+  ),
+
+  createData(
+    "USHER07",
+    "송ㅇ인",
     "F",
     13,
     "2022",
-    "SH418",
-    "서울",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
+    "SH677",
+    "충북",
+    "USH2A c.8559-2A>G:p.?",
+    "USH2A c.10593del:p.Ile3532PhefsTer18"
   ),
 
   createData(
-    "EVA06",
-    "문ㅇ윤",
+    "USHER08",
+    "박ㅇ현",
     "F",
-    21,
+    6,
     "2022",
-    "SH978",
-    "경북",
-    "SLC26A4 c.919-2A>G:p.?",
-    "SLC26A4 c.2168A>G:p.His723Arg"
+    "SH657",
+    "경남",
+    "Inconclusive",
+    "Inconclusive"
   ),
 
   createData(
-    "EVA08",
-    "문ㅇ군",
+    "USHER09",
+    "방ㅇ우",
     "M",
     0,
     "2022",
-    "SH464",
-    "전북",
-    "SLC26A4 c.1229C>T:p.Thr410Met",
-    "SLC26A4 c.2072T>A:p.Leu676Gln"
+    "SH503",
+    "광주",
+    "USH2A c.14835del:p.Val4946TrpfsTer4",
+    "USH2A c.14134-3169A>G:p.?"
   ),
 
   createData(
-    "EVA09",
-    "박ㅇ늘",
+    "USHER10",
+    "전ㅇ욱",
     "M",
     0,
     "2022",
-    "SH484",
-    "서울",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
-  ),
-
-  createData(
-    "EVA10",
-    "추ㅇ호",
-    "F",
-    22,
-    "2022",
-    "SH496",
-    "서울",
-    "SLC26A4 c.2168A>G:p.His723Arg",
-    "SLC26A4 c.2168A>G:p.His723Arg"
+    "SH591",
+    "광주",
+    "STRC c.4816dup:p.Leu1606ProfsTer25",
+    "STRC deletion"
   )
 ];
 
@@ -264,13 +263,13 @@ function Row(props) {
     {row.img2 && (
       <div className={styles.imageContainer}>
         <img
-          src={row.img2}
-          alt="Genome Image 2"
-          className={
-            row.img2large
-              ? styles.subImage
-              : styles.mainImage
-          }
+         src={row.img2}
+         alt="Genome Image 2"
+         className={
+          row.img2large
+            ? styles.subImage
+            : styles.mainImage
+         }
         />
       </div>
     )}
